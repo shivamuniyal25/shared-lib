@@ -2,6 +2,6 @@ package helpers
 
 class message {
     def showMessage() {
-        echo "Message from src directory"
+        return "Step 2: Message from src helper class"
     }
 }
