@@ -1,7 +1,7 @@
 def call() {
     echo "Step 1: Function called from vars directory"
 
-    def helper = new helpers.MessageHelper()
+    def helper = new helpers.message()
     helper.showMessage()
 
     def configText = libraryResource 'app-config.txt'
