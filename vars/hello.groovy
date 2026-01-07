@@ -4,7 +4,7 @@ def call() {
     def helper = new helpers.message()
     helper.showMessage()
 
-    def configText = libraryResource 'app-config.txt'
+    def configText = libraryResource 'config.txt'
     echo "Step 3: Config file content:"
     echo configText
 }
